@@ -1,0 +1,113 @@
+@import url("./theme.css");
+
+/*----------------------------HTML-TAGS--------------------------------*/
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(3, 3, 3, 0.2);
+    padding: 0.75rem 2rem;
+}
+
+td {
+    text-align: center;
+    background-color: var(--light-green);
+}
+
+tr{
+    background-color: var(--green);
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+/*-------------------------------ID------------------------------------*/
+
+#select{
+    margin-left: 0.5rem;
+}
+
+/*-------------------------------CLASS------------------------------*/
+
+/* BUTTONS */
+.btn-nav{
+  text-decoration: none;
+  color: white;
+  background-color: var(--green);
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+
+.btn-nav:hover{
+    background-color: white;
+    color: var(--green);
+    box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+}
+
+.btn-read-structure{
+    position: relative;
+    top: 0.5rem;
+    font-size: 1.5rem;
+    background: var(--dark-green);
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1vh;
+}
+
+.btn-read-structure:hover{
+    font-size: 1.51rem;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+}
+
+.nav a:first-child{
+    margin: 0 1rem 0 1rem;
+}
+
+.nav a{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+/** NAV ELEMENTS */
+
+.div-select{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.display-structures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIGURE ELEMENTS */
+
+.figure{
+    border-top:2px solid var(--green);
+    padding:1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.figure img{
+    width: 100%;
+    height: auto;
+    padding:1rem;
+    border-bottom: 2px solid var(--green);
+}
+
