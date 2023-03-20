@@ -7,7 +7,7 @@ table {
     border: 2px solid rgb(200, 200, 200);
     letter-spacing: 1px;
     font-family: sans-serif;
-    font-size: 0.8rem;
+
 }
 
 td,
@@ -79,7 +79,7 @@ tbody {
     border-left: 2px solid white;
 }
 
-/** NAV ELEMENTS */
+/* NAV ELEMENTS */
 
 .div-select{
     margin: 1rem;

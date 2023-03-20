@@ -22,21 +22,22 @@
       flex-direction: column;
       align-items: center;
       background-color: var(--dark-green);
+      font-size: 1.5vw;
+      max-block-size: 30%;
     }
 
     .div-select label{
       width:40vw;
       min-width: 15vw;
       text-align: center;
-      font-size: 4vh;
       margin-bottom: 1rem;
       letter-spacing: 2px;
       color:white;
     }
 
     #select{
+      font-size: 1.5vw;
       margin:0;
-      font-size: 4vh;
       max-width: fit-content;
     }
   </style>

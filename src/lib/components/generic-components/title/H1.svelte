@@ -12,7 +12,7 @@
         color: var(--dark-green);
         margin-top:0px;
         margin-bottom: 2.5vh;
-        font-size: 8vh;
+        font-size: 3vw;
         font-weight: 100;
     }
 </style>
