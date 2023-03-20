@@ -12,5 +12,18 @@
 </figure>
 
 <style>
+    .figure{
+    border-top:2px solid var(--green);
+    padding:1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    }
 
+    .figure img{
+        width: 100%;
+        height: auto;
+        padding:1rem;
+        border-bottom: 2px solid var(--green);
+    }
 </style>

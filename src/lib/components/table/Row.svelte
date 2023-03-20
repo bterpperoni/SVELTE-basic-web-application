@@ -9,10 +9,18 @@
 </tr>
 
 <style>
-    tr, th+td{
-        border:2px solid var(--dark-green);
-        font-size: 2.5vh;
-    }
+td,
+th {
+    border: 1px solid rgb(3, 3, 3, 0.2);
+    padding: 0.75rem 2rem;
+}
 
-    
+td {
+    text-align: center;
+    background-color: var(--light-green);
+}
+
+tr{
+    background-color: var(--green);
+}
 </style>

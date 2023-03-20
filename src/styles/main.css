@@ -1,42 +1,5 @@
 @import url("./theme.css");
 
-/*----------------------------HTML-TAGS--------------------------------*/
-
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
-    letter-spacing: 1px;
-    font-family: sans-serif;
-
-}
-
-td,
-th {
-    border: 1px solid rgb(3, 3, 3, 0.2);
-    padding: 0.75rem 2rem;
-}
-
-td {
-    text-align: center;
-    background-color: var(--light-green);
-}
-
-tr{
-    background-color: var(--green);
-}
-
-tbody {
-    background-color: #e4f0f5;
-}
-
-/*-------------------------------ID------------------------------------*/
-
-#select{
-    margin-left: 0.5rem;
-}
-
-/*-------------------------------CLASS------------------------------*/
-
 /* BUTTONS */
 .btn-nav{
   text-decoration: none;
@@ -94,20 +57,5 @@ tbody {
     align-items: center;
 }
 
-/* FIGURE ELEMENTS */
 
-.figure{
-    border-top:2px solid var(--green);
-    padding:1rem;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-}
-
-.figure img{
-    width: 100%;
-    height: auto;
-    padding:1rem;
-    border-bottom: 2px solid var(--green);
-}
 

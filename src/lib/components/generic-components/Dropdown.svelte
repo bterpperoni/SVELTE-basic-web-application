@@ -37,7 +37,7 @@
 
     #select{
       font-size: 1.5vw;
-      margin:0;
+      margin:0.5rem;
       max-width: fit-content;
     }
   </style>

@@ -18,6 +18,9 @@
         border-collapse: collapse;
         border: 1px solid var(--dark-green);
         margin: 0 auto;
+        border-collapse: collapse;
+        letter-spacing: 1px;
+        font-family: sans-serif;
     }
     .table thead{
         background-color: var(--dark-green);
@@ -28,5 +31,7 @@
     }
     .table tbody{
         text-align: center;
+        background-color: #e4f0f5;
     }
+
 </style>
