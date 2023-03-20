@@ -15,5 +15,4 @@
     <Button text="DISPLAY STRUCTURE" ref="/structure/{selected}" customClass="btn-read-structure"></Button>
 </div>
 
-<!----------------------------------------STYLE----------------------------------------->
 
