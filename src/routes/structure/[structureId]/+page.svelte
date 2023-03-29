@@ -7,19 +7,19 @@
     
 </script>
 
-<div class="table-structure">
-    <Table thead='Structure Data'>
-        <Row title='structure ID' data={data.structureId}/>
-        <Row title='Data' data={data.data}/>
-    </Table>
-</div>
-<Button text="Display releases related to structure" ref="/releases/{data.structureId}"></Button>
 
-<style>
-    .table-structure{
-        margin: 0 auto;
-        width: 50vw;
-    }
-</style>
+    <div class="display">
+        <Table thead='Structure Data'>
+            <Row title='structure ID' data={data.structureId}/>
+            <Row title='Data' data={data.data}/>
+        </Table>
+        <Button text="Display releases related to structure" ref="/releases/{data.structureId}" customClass="btn-read-structure"></Button>
+    </div>
+
+        
+
+
+
+
 
 

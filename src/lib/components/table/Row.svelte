@@ -1,5 +1,5 @@
 <script lang='ts'>
-    export let data: null|string;
+    export let data: null|string|number|Date;
     export let title: string;
 </script>
 

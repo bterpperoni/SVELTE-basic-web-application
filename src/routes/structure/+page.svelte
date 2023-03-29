@@ -10,7 +10,7 @@
 
     </script>
 <!----------------------------------------HTML------------------------------------------>
-<div class="display-structures">
+<div class="display">
     <Dropdown bind:selected label="STRUCTURE'S LIST: " options={data.options}></Dropdown>
     <Button text="DISPLAY STRUCTURE" ref="/structure/{selected}" customClass="btn-read-structure"></Button>
 </div>

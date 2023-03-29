@@ -5,7 +5,9 @@
 
 <table class="table">
     <thead>
-        {thead}
+        <tr>
+          <th colspan="2">{thead}</th>  
+        </tr> 
     </thead>
     <tbody>
         <slot/>
