@@ -1,8 +1,8 @@
 <script>
      import "../styles/main.css";
-     import H1 from '$lib/components/generic-components/title/H1.svelte';
+     import H1 from '$lib/components/title/H1.svelte';
      import Nav from '$lib/components/nav/Nav.svelte';
-	import Button from "$lib/components/generic-components/Button.svelte";
+	import Button from "$lib/components/button/Button.svelte";
 	import Figure from "$lib/components/img/Figure.svelte";
 </script>
 
@@ -13,3 +13,5 @@
 <Figure w='25vw' h='20vw' src='../lib/images/logo.png'></Figure>
 <H1 text="Rulebook Manager"></H1>
 <slot/>
+
+

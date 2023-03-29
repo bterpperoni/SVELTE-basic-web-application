@@ -24,6 +24,7 @@
       background-color: var(--dark-green);
       font-size: 1.5vw;
       max-block-size: 30%;
+      margin: 1rem;
     }
 
     .div-select label{

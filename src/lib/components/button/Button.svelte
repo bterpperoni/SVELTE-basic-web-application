@@ -3,6 +3,7 @@
     export let ref: string = '';
     export let customClass: string = '';
     export let fontSize: string = '';
+    export let doIt: () => void = () => {};
   </script>
   
-  <a href={ref} class={customClass} style="font-size: {fontSize}">{text}</a>
+  <a href={ref} class={customClass} style="font-size: {fontSize}" on:click={doIt}>{text}</a>

@@ -6,3 +6,4 @@ export const load = (async ({ fetch, params }) => {
   const releases: Array<Release> = await res.json();
   return {releases};
 }) satisfies PageLoad;
+

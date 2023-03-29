@@ -38,6 +38,9 @@ html {
     box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
 }
 
+
+
+/* NAV ELEMENT */
 .nav a:first-child{
     margin: 0 1rem 0 1rem;
 }
@@ -47,18 +50,17 @@ html {
     border-left: 2px solid white;
 }
 
-/* NAV ELEMENTS */
+/* FLEX BOX CLASSES */
 
-.div-select{
-    margin: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.display{
+.display-column{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.display-row{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
