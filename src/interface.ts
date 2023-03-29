@@ -4,7 +4,8 @@ export type Structure = {
 }
 
 export type Release = {
-    releaseId: string;
+	[x: string]: any;
+    releaseId: number;
     releaseData: null|string;
     startingDate: Date;
     rulebookCompiledBy: string;
