@@ -8,6 +8,7 @@
 	import { timeToDate } from "$lib/typescript/service";
 
     export let data: PageData;
+    console.log(data.releases[0]);
 </script>
 
 <div class="display-column">

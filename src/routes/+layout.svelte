@@ -10,7 +10,7 @@
      <Button text="HOME" ref="/" customClass="btn-nav"></Button>
      <Button text="STRUCTURES" ref="/structure" customClass="btn-nav"></Button>
 </Nav>
-<Figure w='25vw' h='20vw' src='../lib/images/logo.png'></Figure>
+<Figure w='25vw' h='20vw' src='/src/lib/images/logo.png'></Figure>
 <H1 text="Rulebook Manager"></H1>
 <slot/>
 
